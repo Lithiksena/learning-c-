@@ -1,12 +1,11 @@
 # learning-c-
 i will be uploding codes that simple and for begginers , as time passes i will upload more complex and advanced codes!
 
-<h1> cpp </h1>
-C++  
+<h1> CPP </h1>
 
-C++ is a programming language, it's a hardware-oriented language  
+C++ is a programming language, it's a hardware-oriented language.  
 
-Which means: the computer likes it more therefore its harder to code but for the computer its easier for them to understand and solve! 
+Which means: the computer likes it more therefore its <b> harder to code but for the computer its easier for them to understand and solve! </b> 
 
  
 
