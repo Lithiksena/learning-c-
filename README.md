@@ -9,69 +9,28 @@ Which means: the computer likes it more therefore its <b> harder to code but for
 
  
 
-History about C++ 
+<h2> History about C++ </h2> 
 
+C++ programming language was developed in 1980 by Bjarne Stroustrup at bell laboratories of AT&T (American Telephone & Telegraph), located in U.S.A. Bjarne Stroustrup is known as the founder of C++ language. It was developed for adding a feature of OOP (Object Oriented Programming) in C without significantly changing the C component. C++ programming is "relative" (called a superset) of C, it means any valid C program is also a valid C++ program. C++is loved by computers, but python is being loved users 
  
-
-C++ programming language was developed in 1980 by Bjarne Stroustrup at bell laboratories of AT&T (American Telephone & Telegraph), located in U.S.A. 
-
- 
-
-Bjarne Stroustrup is known as the founder of C++ language. 
-
- 
-
-It was developed for adding a feature of OOP (Object Oriented Programming) in C without significantly changing the C component. 
-
- 
-
-C++ programming is "relative" (called a superset) of C, it means any valid C program is also a valid C++ program. 
-
-C++ is loved by computers, but python is being loved users 
-
- 
-
- 
-
- 
-
- 
-
-C++ Features: 
-
- 
+<h2> C++ Features: </h2>
 
 C++ is object-oriented programming language. It provides a lot of features that are given below. 
 
+<ul>
+  <li>Simple</li>
+  <li>Machine Independent</li>
+  <li>Mid-Level Programming Language</li>
+ <li> Rich libary </li>
+ <li> Memory Management  </li>
+ <li> Fast Speed  </li>
+  <li> Pointers (refer to the address)  </li>
+  <li> Recursion </li>
+  <li> Extensible </li>
+ <li> Object Oriented </li>
+  <li> Compiler based  </li>
  
-
-Simple 
-
-Machine Independent or Portable or machine loved  
-
-Mid-level programming language  
-
-Structured programming language  
-
-Rich Library  
-
-Memory Management 
-
-Fast Speed 
-
-Pointers (refer to the address) 
-
-Recursion 
-
-Extensible 
-
-Object Oriented 
-
-Compiler based 
-
- 
-
- 
+</ul>
 
 Here are some important terms in the programming language c++ 
 
