@@ -36,7 +36,7 @@ Here are some important terms in the programming language c++
 
  
 
-#include: In C++, all lines that start with pound (#) sign are called directives and are processed by pre-processor which is a program invoked by the compiler.  
+<h1> #include </h1> In C++, all lines that start with pound (#) sign are called directives and are processed by pre-processor which is a program invoked by the compiler.  
 
 The #include directive tells the compiler to include a file and #include<iostream>. #include<cmath> #include<string> 
 
@@ -44,22 +44,22 @@ It tells the compiler to include the standard iostream file which contains decla
 
  
 
-using namespace std: This is used to import the entirety of the std namespace into the current namespace of the program.  
+<h1> using namespace std </h1> This is used to import the entirety of the std namespace into the current namespace of the program.  
 
-The statement using namespace std is generally considered a bad practice. Std:: 
+The statement using namespace std is generally considered a bad practice. using std:: in front of commands is considerded to be better. 
 
 When we import a namespace, we are essentially pulling all type definitions into the current scope.  
 
  
 
-int main (): This line is used to declare a function named “main” which returns data of integer type. 
+<h1> int main ()</h1>This line is used to declare a function named “main” which returns data of integer type. 
 
  A function is a group of statements that are designed to perform a specific task.  
 
 Execution of every C++ program begins with the main () function, no matter where the function is located in the program. So, every C++ program must have a main () function. 
 
  
-
+<h1>statement  </h1>
 std::cout<< “Hello World”; This line tells the compiler to display the message “Hello World” on the screen.  
 
 This line is called a statement in C++. Every statement is meant to perform some task. A semi-colon ‘;’ is used to end a statement.  
@@ -72,7 +72,7 @@ Everything followed by the character “<<” is displayed to the output device.
 
  
 
-Input/Output. 
+<h1> Input/Output. </h1> 
 
 return 0; ->This is also a statement. This statement is used to return a value from a function and indicates the finishing of a function.  
 
@@ -80,7 +80,7 @@ This statement is basically used in functions to return the results of the opera
 
  
 
-Indentation: As you can see the cout and the return statement have been indented or moved to the right side.  
+<h1>Indentation</h1>  As you can see the cout and the return statement have been indented or moved to the right side.  
 
 This is done to make the code more readable. In a program as Hello World,  
 
@@ -92,7 +92,7 @@ Therefore, you must always use indentations and comments to make the code more r
 
  
 
-Datatypes and thier functions in c ++: 
+<h1>Datatypes and thier functions in c ++</h1> 
 
  
 
@@ -104,27 +104,25 @@ These datatypes are already defined in the compiler
 
  
 
-String is a datatype that stores the name or any letters they act as variables they hold no value but if they are called upon, they respond to (it's like your username in a game), e.g.: string a = “lithik” 
+<h1>String</h1> string is a datatype that stores the name or any letters they act as variables they hold no value but if they are called upon, they respond to (it's like your username in a game), e.g.: string a = “lithik” 
 
-Integer (int) is a datatype that allows you to store a whole number value by giving it a variable before the equal sign, it holds the value of which the user declares, e.g.:  
+<h1>Integer (int)</h1>   integer is a datatype that allows you to store a whole number value by giving it a variable before the equal sign, it holds the value of which the user declares, e.g.:  
 
 int a = 12 
 
- long is a datatype that is basically acts like integer but can hold bigger values, e.g.: long = 1536731671376317 but int = 613878732 
+ <h1>long</h1> long is a datatype that is basically acts like integer but can hold bigger values, e.g.: long = 1536731671376317 but int = 613878732 
 
-float is a datatype that can hold a value of only two decimal places, e.g. : 
+ <h1>float</h1> is a datatype that can hold a value of only two decimal places, e.g. : 
 
  float  a = 37.36 
 
-Character(char) is a data type that holds one character (letter, number, etc.) of data., eg : char = a  
+<h1>Character(char)</h1> is a data type that holds one character (letter, number, etc.) of data., eg : char = a  
 
-double is a datatype that can hold a value of more than two decimal places, e.g.: double: 37.367767764 
+<h1>double</h1> is a datatype that can hold a value of more than two decimal places, e.g.: double: 37.367767764 
 
- Boolean is a datatype that gives a response of true or false, e.g. is 2+2= 3? False …. is 2+2=4? True. 
+<h1> Boolean</h1> is a datatype that gives a response of true or false, e.g. is 2+2= 3? False …. is 2+2=4? True. 
 
-Void is a datatype that can be used instead of main () but it doesn’t give anything in return like main, for example int  main () will give 2+2= `2’ but void will 2+2=?  
-
- 
+<h1>Void</h1> is a datatype that can be used instead of main () but it doesn’t give anything in return like main, for example int  main () will give 2+2= `2’ but void will 2+2=?  
 
  
 
@@ -134,123 +132,118 @@ Void is a datatype that can be used instead of main () but it doesn’t give any
 
  
 
-This is all sizes and ranges of the datatypes  
+ 
 
-Data types  
+<h2>This is all sizes and ranges of the datatypes </h2>
 
-Size 
+<h2>char </h2>
 
-Range 
+size: 1 byte  
 
-char 
+range: -128 to 127 or 0 to 255 
 
-1 byte  
+<h2>Int </h2>
 
--128 to 127 or 0 to 255 
+size:  4 bytes 
 
-Int 
+range: -2147483648 to 2147483647 
 
- 4 bytes 
+<h2>Void </h2>
 
--2147483648 to 2147483647 
+range: No return 
 
-Void  
+<h2>bool </h2>
 
  
 
-No return 
-
-bool 
+range: True or false  
 
  
 
-True or false  
+<h2>short int</h2>
+
+size: 2 bytes 
+
+range: -32,768 to 32,767 
+
+<h2>unsigned short int</h2> 
+
+size: 2 bytes 
+
+range: 0 to 65,535 
+
+<h2>unsigned int </h2>
+
+size: 4 bytes 
+
+range: 0 to 4,294,967,295 
+
+<h2>int </h2>
+
+size: 4 bytes 
+
+-range: 2,147,483,648 to 2,147,483,647 
+
+<h2>long int</h2> 
+
+size: 8 bytes 
+
+range: -2,147,483,648 to 2,147,483,647 
+
+<h2>unsigned long int </h2> 
+
+size: 4 bytes 
+
+range: 0 to 4,294,967,295 
+
+<h2>long long int </h2>
+
+size: 16 bytes 
+
+range: -(2^63) to (2^63)-1 
+
+<h2>unsigned long long int </h2>
+
+size: 16 bytes 
+
+range: 0 to 18,446,744,073,709,551,615 
+
+<h2>signed char </h2>
+
+size: 1 byte 
+
+range: -128 to 127 
+
+<h2>unsigned char </h2>
+
+size: 1 byte 
+
+range: 0 to 255 
+
+<h2>float </h2>
+
+size: 4 bytes 
+
+range: 0.00 
+
+
+<h2>double </h2>
+
+size: 8 bytes 
+
+range: 0.0000000.... 
+
+<h2>long double </h2>
+
+size: 12 bytes 
 
  
 
-short int 
+<h2>wchar_t </h2>
 
-2 bytes 
+size: 2 or 4 bytes 
 
--32,768 to 32,767 
-
-unsigned short int 
-
-2 bytes 
-
-0 to 65,535 
-
-unsigned int 
-
-4 bytes 
-
-0 to 4,294,967,295 
-
-int 
-
-4 bytes 
-
--2,147,483,648 to 2,147,483,647 
-
-long int 
-
-8 bytes 
-
--2,147,483,648 to 2,147,483,647 
-
-unsigned long int 
-
-4 bytes 
-
-0 to 4,294,967,295 
-
-long long int 
-
-16 bytes 
-
--(2^63) to (2^63)-1 
-
-unsigned long long int 
-
-16 bytes 
-
-0 to 18,446,744,073,709,551,615 
-
-signed char 
-
-1 byte 
-
--128 to 127 
-
-unsigned char 
-
-1 byte 
-
-0 to 255 
-
-float 
-
-4 bytes 
-
-0.00 
-
-double 
-
-8 bytes 
-
-0.0000000.... 
-
-long double 
-
-12 bytes 
-
- 
-
-wchar_t 
-
-2 or 4 bytes 
-
-1 wide character 
+range: 1 wide character 
 
  
 
@@ -261,7 +254,7 @@ The other datatypes you see here are the same as the ones mentioned above but th
  
 
  
-
+<h1> unfinshed </h1>
  
 
 Operators and operands  
