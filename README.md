@@ -1014,4 +1014,165 @@ int main()
 
 } 
 
-The answer is 3 because we used the comma operator which made it to exclude the first two but kepp the last one  
+The answer is 3 because we used the comma operator which made it to exclude the first two but keep the last one  
+
+
+
+
+
+
+if , if else and nested if statements:
+
+if and nested if statement 
+
+with the if statement we go through all the lines to check wheather each condition is true , Nested if allows the user to put more than one if statement in a row or inside
+another if statement saving more time .However using if statements also
+increases the time complexity. 
+eg:
+question : which is false : 4+1=5, 3*2=9, 8-2=6
+
+if we use the if statement: 
+int i;
+int w;
+
+i=4+1=w
+if(w==5)
+cout<<"true";
+else
+cout<<"false";
+
+i=3*2=w
+if(w==9)
+cout<<"true";
+else
+cout<<"false";
+
+i=8-2=w
+if(w==6)
+cout<<"true";
+else
+cout<<"false";
+
+in this programm , the computer checksv each condition and stores them in its memory to later compare which statement is flase, by doing this we increase its time complexity . We can avoid this by using if else block , if else checks conditions similar to a normal if statment however it kills each condition if it isnt what the user asked 
+eg:
+
+int i;
+int w;
+
+i=4+1=w
+if else (w==5)
+cout<<"true";
+else
+cout<<"false";
+
+i=3*2=w
+if else (w==9)
+cout<<"true";
+else
+cout<<"false";
+
+i=8-2=w
+if else (w==6)
+cout<<"true";
+else
+cout<<"false";
+
+
+since we used if else command here , we reduce the tinme complexity . The computer doesnt store its previous conditions if it isnt what the user aksed for , so in this case the compiler ignores the first two conditions and and only stores the statements that were false . 
+
+
+
+FUNCTIONS 
+
+Functions are used to help us understand the code better and reduce its time complexity.
+
+void functions :
+
+these type of functions dont have a return type, so they are returned int main. A void function is like a shopping bag , it is  used to store goods in a effecient way however it doesnt have a mind of its own. the person carrying the bag is int main and void is used to make thing look better and handle commands faster .
+
+eg:
+
+#include<bits/stdc++.h>
+using namespace std;
+void multiply (int num)
+{
+	 for(int a=1;a<11;a++)
+    {
+        cout<<num<<"*"<<a<<"="<<num*a<<endl;
+    }
+}
+int main()
+{
+   	int num;
+	cin>>num;
+	multiply(num);
+}
+
+
+
+
+
+PARAMETERS 
+
+
+
+Both actual and formal parameters refer to same locations, 
+so any changes made inside the function are actually reflected in
+actual parameters of caller.
+
+Parameters are always passed by value in C++. 
+
+#include <iostream> 
+using namespace std; 
+
+void k(int *ptr) 
+{ 
+	*ptr = 30; 
+} 
+
+int main() { 
+	int x = 20; 
+	k(&x); 
+	cout << "x = " << x; 
+	
+	return 0; 
+} 
+
+// In C++, both void fun() and void fun(void) are same.
+
+Main Function:
+The main function is a special function. 
+Every C++ program must contain a function named main. 
+It serves as the entry point for the program. 
+The computer will start running the code from the beginning of the main function.
+
+Types of main Function:
+
+1) The first type is – main function without parameters :
+
+// Without Parameters 
+int main() 
+{ 
+   ... 
+   return 0; 
+} 
+
+2) The main function with parameters 
+
+// With Parameters 
+int main(int argc, char * const argv[]) 
+{ 
+... 
+return 0; 
+} 
+
+The reason for having the parameter option for the main function is to allow input from the command line.
+
+When you use the main function with parameters,
+ it saves every group of characters (separated by a space) after the program name as elements in an array named argv.
+
+Since the main function has the return type of int, the programmer must always have a return statement in the code. 
+The number that is returned is used to inform the calling program what the result of the program’s execution was. 
+Returning 0 signals that there were no problems`
+
+
