@@ -1021,7 +1021,7 @@ The answer is 3 because we used the comma operator which made it to exclude the 
 
 
 
-if , if else and nested if statements:
+<h1>if , if else and nested if statements</h1>
 
 if and nested if statement 
 
@@ -1082,7 +1082,7 @@ since we used if else command here , we reduce the tinme complexity . The comput
 
 
 
-FUNCTIONS 
+<h1>FUNCTIONS</h1> 
 
 Functions are used to help us understand the code better and reduce its time complexity.
 
@@ -1112,7 +1112,7 @@ int main()
 
 
 
-PARAMETERS 
+<h1>PARAMETERS </h1>
 
 
 
