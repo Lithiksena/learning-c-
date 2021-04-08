@@ -251,13 +251,9 @@ range: 1 wide character
 
 The other datatypes you see here are the same as the ones mentioned above but they can hold bigger or shorter or negatives value or characters  
 
- 
 
- 
-<h1> unfinshed </h1>
- 
 
-Operators and operands  
+<h1>Operators and operands  </h1>
 
 ++a + b + d && d > i | 0 
 
@@ -273,15 +269,13 @@ Yes, they are in-built.
 
  
 
-Arithmetic operators: Arithmetic operations such as addition, multiplication, subtraction, 
-
- division.  
+Arithmetic operators: Arithmetic operations such as addition, multiplication, subtraction, division.  
 
 Of two types: Binary and Unary  
 
  
 
-Unary  
+<h1>Unary  </h1>
 
 ++ , --  
 
@@ -297,7 +291,7 @@ int a = 5;
 
 two types of unary operator: 
 
-Post fix operators and Pre fix operators  
+<h1>Post fix operators and Pre fix operators  </h1>
 
  
 
@@ -351,7 +345,7 @@ Noted: Unary operators work on single operand
 Binary Operator: Work with 2 operands  
 
  
-Binary operator  
+<h1>Binary operator </h1> 
 
 / * - + %  
 
@@ -368,7 +362,7 @@ Binary operator
 % = modulus (this operation is like division but it only gives the remainders) 
  
 
-    //We are here to explore arithmetic operator 
+    We are here to explore arithmetic operator 
 
     int a = 6; 
 
@@ -377,7 +371,7 @@ Binary operator
  
  
 
-    //1. Addition  
+    1. Addition  
 
     int c = a + b; 
 
@@ -386,7 +380,7 @@ Binary operator
  
  
 
-    //2. Subtraction  
+    2. Subtraction  
 
     int d = a - b; 
 
@@ -395,7 +389,7 @@ Binary operator
  
  
 
-    //3. Multiplication  
+    3. Multiplication  
 
     int e = a * b; 
 
@@ -404,7 +398,7 @@ Binary operator
  
  
 
-    //4. Division  
+    4. Division  
 
     int f = a/b; 
 
@@ -413,7 +407,7 @@ Binary operator
  
  
 
-    //5. Modulus 
+    5. Modulus 
 
     int g = a % b; 
 
@@ -423,7 +417,7 @@ Binary operator
  
  
 
-UNARY OPERATOR  
+<h1>UNARY OPERATOR  </h1>
 
  
 
@@ -472,7 +466,7 @@ UNARY OPERATOR
 
  
 
-RELATIONAL OPERATORS 
+<h1>RELATIONAL OPERATORS </h1>
 
  
 
@@ -593,7 +587,7 @@ Now, let us collect all the remainder
 
  
 
-Logical operators 
+<h1>Logical operators </h1>
 
 Logical operators are operators that make sense or logic  
 
