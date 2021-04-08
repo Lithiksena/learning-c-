@@ -597,7 +597,8 @@ Logical operators are operators that make sense or logic
 
 <h2>Logical OR - ||</h2> 
 
->2>Logical NOT -   ! </h2> ( followed by the variable you have declared) 
+<h2>Logical NOT -   ! </h2> 
+(followed by the variable you have declared) 
 
  
 
