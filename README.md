@@ -470,17 +470,17 @@ Binary Operator: Work with 2 operands
 
  
 
-  > : Greater than 
+<h2>  > : Greater than </h2>
 
-< : Less than 
+<h2>  < : Less than </h2>
 
-== : Equality Operator  
+<h2> == : Equality Operator  </h2>
 
->= : Greater than equal to  
+<h2> >= : Greater than equal to  </h2>
 
-<= : Less than equal to  
+<h2> <= : Less than equal to  </h2>
 
-!= : Not equal to  
+<h2> != : Not equal to  </h2>
 
  
  
@@ -593,15 +593,17 @@ Logical operators are operators that make sense or logic
 
   
 
-Logical AND - && 
+<h2> Logical AND - && </h2>
 
-Logical OR - || 
+<h2>Logical OR - ||</h2> 
 
-Logical NOT -   ! ( followed by the variable you have declared) 
+>2>Logical NOT -   ! </h2> ( followed by the variable you have declared) 
 
  
 
-Logical AND is declared when two statements should be true  
+<h1> Logical AND </h1>
+
+it is declared when two statements should be true  
 
 Example: you want to buy a banana for less than 20 rupees and orange for less than 50 rupees 
 
@@ -709,7 +711,7 @@ In which condition "Very happy" will be printed?
 In condition 4.  
 
  
-Logical OR - || 
+<h1> Logical OR - || </h1>
 
 This operator is very similar to LOGICAL AND but there is one major change in this operator . This operator LOGICAL OR is declared when you need only one of the conditions to be true . 
 
@@ -719,7 +721,7 @@ LOGICAL OR IS DECLARED LIKE THIS: if ( a > b|| b>a)
 
                                                                    Cout << “true”; 
 
-Logical not - ! 
+<h1> Logical not - ! </h1>
 
 This is the most complicated logical operator, the ‘!’ operator returns true the condition in consideration is not satisfied. Otherwise it returns false. For example,!a returns true if a is false, i.e. when a=0. 
 
@@ -731,7 +733,7 @@ For example: you eat rice when you're not hungry and you decide not to eat when 
 
  
 
- Bitwise Operators 
+ <h1> Bitwise Operators </h1>
 
  
 
@@ -739,12 +741,12 @@ Bitwise operators work on two different or same operands and turn them into the 
 
  
 
-BITWISE AND - & 
+<h2> BITWISE AND - & </h2>
+<h2> BITWISE or - | </h2>
 
-BITWISE OR -    | 
  
 
-Bitwise and (&) 
+<h3> Bitwise and (&) </h3>
 
  
 Ex: 
@@ -827,7 +829,7 @@ Final answer: 1
 This is how the bitwise and works it takes two decimal numbers turns them into binary form and does the special AND condition ( if both of them is true : the result would  be true but if one of them is false they both would be false :just like logical and) and then takes the final binary numbers and turns them into the decimal form as you have seen it above  
  
 
-Bitwise OR (|) 
+<h3> Bitwise OR (|) </h3>
  
 
 Solving Bitwise or for 18 and 19  
@@ -900,7 +902,7 @@ Final answer = 19
 This is how the bitwise and works it takes two decimal numbers turns them into binary form ( which Is the same as bitwise )and does the special OR condition instead of and ( if one of them is true : the resukt would also be true just like locical and ) and then takes the final binary numbers and turns them into the decimal form as you have seen it abvove  
  
 
-Assignment Operators  
+<h1> Assignment Operators  </h1>
 
 Assignment operators they Assign someone with something 
 
@@ -930,17 +932,17 @@ Ex: these operators are like assigning people with tasks for example if a teache
 
  
 
-Other useful operators  
+<h4> Other useful operators  </h4>
 
-Comma operator 
+<h4> Comma operator </h4>
 
-Conditional operator 
+<h4>Conditional operator </h4>
 
-Sizeof operator 
+<h4> Sizeof operator </h4>
 
  
 
-Sizeof operator: 
+<h2> Sizeof operator </h2>
 
 Sizeof operator is an command used for looking at sizes of datatypes  
 
@@ -950,7 +952,7 @@ Ex: this is used because people tend to forget the szies of the dataypes so they
 
  
 
-Conditional operator 
+<h2> Conditional operator </h2>
 
 Conditional operator is when there is a condition between two things  
 
@@ -986,7 +988,7 @@ A < B ? EXP 1 : EXP 2
 if condition is true, expression 1 would run successfully else exp 2 will run successfully 
 
  
-Comma operator 
+<h2> Comma operator </h2>
 
  When The comma operator is used, it excludes all of the results except the last operand and shows us only the last operand . 
 
@@ -1017,7 +1019,7 @@ The answer is 3 because we used the comma operator which made it to exclude the 
 
 <h1>if , if else and nested if statements</h1>
 
-if and nested if statement 
+<h3> if and nested if statement </h3>
 
 with the if statement we go through all the lines to check wheather each condition is true , Nested if allows the user to put more than one if statement in a row or inside
 another if statement saving more time .However using if statements also
@@ -1080,7 +1082,7 @@ since we used if else command here , we reduce the tinme complexity . The comput
 
 Functions are used to help us understand the code better and reduce its time complexity.
 
-void functions :
+<h3> void functions </h3>
 
 these type of functions dont have a return type, so they are returned int main. A void function is like a shopping bag , it is  used to store goods in a effecient way however it doesnt have a mind of its own. the person carrying the bag is int main and void is used to make thing look better and handle commands faster .
 
